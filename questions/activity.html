@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/nav.css">
+    <link rel="stylesheet" href="/style/signin_welcome.css">
+	<link rel="shortcut icon" href="/Resource/apple-icon-144x144.png" type="image/x-icon">
+
+    <script src="/script/customer_details.js"></script>
+    <title>Weight</title>
+</head>
+
+<body>
+    <section id="top">
+        <!-- --------Navbar------ -->
+        <div class="container">
+            <div class="nav">
+                <a class="logo" href="/index.html">
+                    <img src="/Resource/Fitness_logo.png" alt="">
+                </a>
+            </div>
+    </section>
+    <section id="question_card_container">
+        <div class="card_container">
+            <div class="card" id="active">
+                <h1>What is your baseline activity level?</h1>
+                <p>Not including workouts–we count that separately</p>
+                <select name="" id="activity">
+                    <option value="" selected disabled>Select Your Activity Level</option>
+                    <option value="1">Not Active</option>
+                    <option value="2">Very least Active</option>
+                    <option value="3">lightly Active</option>
+                    <option value="4">Active</option>
+                    <option value="5">Very Active</option>
+                </select>
+                <button onclick="handleActivity()">CONTINUE</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
